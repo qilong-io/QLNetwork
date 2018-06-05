@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71192FBF20C6329F001E5164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FBE20C6329F001E5164 /* AppDelegate.m */; };
+		71192FC220C6329F001E5164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FC120C6329F001E5164 /* ViewController.m */; };
+		71192FC520C6329F001E5164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71192FC320C6329F001E5164 /* Main.storyboard */; };
+		71192FC720C6329F001E5164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71192FC620C6329F001E5164 /* Assets.xcassets */; };
+		71192FCA20C6329F001E5164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71192FC820C6329F001E5164 /* LaunchScreen.storyboard */; };
+		71192FCD20C632A0001E5164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FCC20C632A0001E5164 /* main.m */; };
+		71192FD720C632A0001E5164 /* QLNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FD620C632A0001E5164 /* QLNetworkDemoTests.m */; };
+		71192FE220C632A0001E5164 /* QLNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FE120C632A0001E5164 /* QLNetworkDemoUITests.m */; };
+		71192FF520C63624001E5164 /* QLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FF420C63624001E5164 /* QLAction.m */; };
+		71192FF820C638B6001E5164 /* QLNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FF720C638B6001E5164 /* QLNetworkCache.m */; };
+		71192FFB20C639E8001E5164 /* NSObject+QLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FFA20C639E8001E5164 /* NSObject+QLRequest.m */; };
+		E992A724F52DBDDBD8AF2D04 /* libPods-QLNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ED570F49180DB7268F9808 /* libPods-QLNetworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71192FD320C632A0001E5164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71192FB220C6329F001E5164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71192FB920C6329F001E5164;
+			remoteInfo = QLNetworkDemo;
+		};
+		71192FDE20C632A0001E5164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71192FB220C6329F001E5164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71192FB920C6329F001E5164;
+			remoteInfo = QLNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D53251B877F94810E79A90 /* Pods-QLNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QLNetworkDemo/Pods-QLNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		617E8DF3E4DF9E518833AE96 /* Pods-QLNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QLNetworkDemo/Pods-QLNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		65ED570F49180DB7268F9808 /* libPods-QLNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71192FBA20C6329F001E5164 /* QLNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71192FBD20C6329F001E5164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71192FBE20C6329F001E5164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71192FC020C6329F001E5164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71192FC120C6329F001E5164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71192FC420C6329F001E5164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71192FC620C6329F001E5164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71192FC920C6329F001E5164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71192FCB20C6329F001E5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71192FCC20C632A0001E5164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71192FD220C632A0001E5164 /* QLNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71192FD620C632A0001E5164 /* QLNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLNetworkDemoTests.m; sourceTree = "<group>"; };
+		71192FD820C632A0001E5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71192FDD20C632A0001E5164 /* QLNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71192FE120C632A0001E5164 /* QLNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLNetworkDemoUITests.m; sourceTree = "<group>"; };
+		71192FE320C632A0001E5164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71192FF020C6345E001E5164 /* QLNetSingLeton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLNetSingLeton.h; sourceTree = "<group>"; };
+		71192FF120C63509001E5164 /* QLRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLRequestProtocol.h; sourceTree = "<group>"; };
+		71192FF220C6357B001E5164 /* QLViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLViewModelProtocol.h; sourceTree = "<group>"; };
+		71192FF320C63624001E5164 /* QLAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAction.h; sourceTree = "<group>"; };
+		71192FF420C63624001E5164 /* QLAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLAction.m; sourceTree = "<group>"; };
+		71192FF620C638B6001E5164 /* QLNetworkCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLNetworkCache.h; sourceTree = "<group>"; };
+		71192FF720C638B6001E5164 /* QLNetworkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLNetworkCache.m; sourceTree = "<group>"; };
+		71192FF920C639E8001E5164 /* NSObject+QLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+QLRequest.h"; sourceTree = "<group>"; };
+		71192FFA20C639E8001E5164 /* NSObject+QLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QLRequest.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71192FB720C6329F001E5164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E992A724F52DBDDBD8AF2D04 /* libPods-QLNetworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71192FCF20C632A0001E5164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71192FDA20C632A0001E5164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5F92ABA6BC005F64829853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43D53251B877F94810E79A90 /* Pods-QLNetworkDemo.debug.xcconfig */,
+				617E8DF3E4DF9E518833AE96 /* Pods-QLNetworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71192FB120C6329F001E5164 = {
+			isa = PBXGroup;
+			children = (
+				71192FBC20C6329F001E5164 /* QLNetworkDemo */,
+				71192FD520C632A0001E5164 /* QLNetworkDemoTests */,
+				71192FE020C632A0001E5164 /* QLNetworkDemoUITests */,
+				71192FBB20C6329F001E5164 /* Products */,
+				5B5F92ABA6BC005F64829853 /* Pods */,
+				9A6015C8A2E29427570E1929 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71192FBB20C6329F001E5164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71192FBA20C6329F001E5164 /* QLNetworkDemo.app */,
+				71192FD220C632A0001E5164 /* QLNetworkDemoTests.xctest */,
+				71192FDD20C632A0001E5164 /* QLNetworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71192FBC20C6329F001E5164 /* QLNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				71192FEF20C633AE001E5164 /* QLNetwork */,
+				71192FBD20C6329F001E5164 /* AppDelegate.h */,
+				71192FBE20C6329F001E5164 /* AppDelegate.m */,
+				71192FC020C6329F001E5164 /* ViewController.h */,
+				71192FC120C6329F001E5164 /* ViewController.m */,
+				71192FC320C6329F001E5164 /* Main.storyboard */,
+				71192FC620C6329F001E5164 /* Assets.xcassets */,
+				71192FC820C6329F001E5164 /* LaunchScreen.storyboard */,
+				71192FCB20C6329F001E5164 /* Info.plist */,
+				71192FCC20C632A0001E5164 /* main.m */,
+			);
+			path = QLNetworkDemo;
+			sourceTree = "<group>";
+		};
+		71192FD520C632A0001E5164 /* QLNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71192FD620C632A0001E5164 /* QLNetworkDemoTests.m */,
+				71192FD820C632A0001E5164 /* Info.plist */,
+			);
+			path = QLNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		71192FE020C632A0001E5164 /* QLNetworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71192FE120C632A0001E5164 /* QLNetworkDemoUITests.m */,
+				71192FE320C632A0001E5164 /* Info.plist */,
+			);
+			path = QLNetworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		71192FEF20C633AE001E5164 /* QLNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				71192FF020C6345E001E5164 /* QLNetSingLeton.h */,
+				71192FF120C63509001E5164 /* QLRequestProtocol.h */,
+				71192FF220C6357B001E5164 /* QLViewModelProtocol.h */,
+				71192FF320C63624001E5164 /* QLAction.h */,
+				71192FF420C63624001E5164 /* QLAction.m */,
+				71192FF620C638B6001E5164 /* QLNetworkCache.h */,
+				71192FF720C638B6001E5164 /* QLNetworkCache.m */,
+				71192FF920C639E8001E5164 /* NSObject+QLRequest.h */,
+				71192FFA20C639E8001E5164 /* NSObject+QLRequest.m */,
+			);
+			path = QLNetwork;
+			sourceTree = "<group>";
+		};
+		9A6015C8A2E29427570E1929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65ED570F49180DB7268F9808 /* libPods-QLNetworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71192FB920C6329F001E5164 /* QLNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71192FE620C632A0001E5164 /* Build configuration list for PBXNativeTarget "QLNetworkDemo" */;
+			buildPhases = (
+				A51DE2E7E5DB96949BB86B63 /* [CP] Check Pods Manifest.lock */,
+				71192FB620C6329F001E5164 /* Sources */,
+				71192FB720C6329F001E5164 /* Frameworks */,
+				71192FB820C6329F001E5164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLNetworkDemo;
+			productName = QLNetworkDemo;
+			productReference = 71192FBA20C6329F001E5164 /* QLNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71192FD120C632A0001E5164 /* QLNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71192FE920C632A0001E5164 /* Build configuration list for PBXNativeTarget "QLNetworkDemoTests" */;
+			buildPhases = (
+				71192FCE20C632A0001E5164 /* Sources */,
+				71192FCF20C632A0001E5164 /* Frameworks */,
+				71192FD020C632A0001E5164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71192FD420C632A0001E5164 /* PBXTargetDependency */,
+			);
+			name = QLNetworkDemoTests;
+			productName = QLNetworkDemoTests;
+			productReference = 71192FD220C632A0001E5164 /* QLNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71192FDC20C632A0001E5164 /* QLNetworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71192FEC20C632A0001E5164 /* Build configuration list for PBXNativeTarget "QLNetworkDemoUITests" */;
+			buildPhases = (
+				71192FD920C632A0001E5164 /* Sources */,
+				71192FDA20C632A0001E5164 /* Frameworks */,
+				71192FDB20C632A0001E5164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71192FDF20C632A0001E5164 /* PBXTargetDependency */,
+			);
+			name = QLNetworkDemoUITests;
+			productName = QLNetworkDemoUITests;
+			productReference = 71192FDD20C632A0001E5164 /* QLNetworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71192FB220C6329F001E5164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QL;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ql;
+				TargetAttributes = {
+					71192FB920C6329F001E5164 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					71192FD120C632A0001E5164 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71192FB920C6329F001E5164;
+					};
+					71192FDC20C632A0001E5164 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71192FB920C6329F001E5164;
+					};
+				};
+			};
+			buildConfigurationList = 71192FB520C6329F001E5164 /* Build configuration list for PBXProject "QLNetworkDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71192FB120C6329F001E5164;
+			productRefGroup = 71192FBB20C6329F001E5164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71192FB920C6329F001E5164 /* QLNetworkDemo */,
+				71192FD120C632A0001E5164 /* QLNetworkDemoTests */,
+				71192FDC20C632A0001E5164 /* QLNetworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71192FB820C6329F001E5164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71192FCA20C6329F001E5164 /* LaunchScreen.storyboard in Resources */,
+				71192FC720C6329F001E5164 /* Assets.xcassets in Resources */,
+				71192FC520C6329F001E5164 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71192FD020C632A0001E5164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71192FDB20C632A0001E5164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A51DE2E7E5DB96949BB86B63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QLNetworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71192FB620C6329F001E5164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71192FFB20C639E8001E5164 /* NSObject+QLRequest.m in Sources */,
+				71192FF820C638B6001E5164 /* QLNetworkCache.m in Sources */,
+				71192FF520C63624001E5164 /* QLAction.m in Sources */,
+				71192FC220C6329F001E5164 /* ViewController.m in Sources */,
+				71192FCD20C632A0001E5164 /* main.m in Sources */,
+				71192FBF20C6329F001E5164 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71192FCE20C632A0001E5164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71192FD720C632A0001E5164 /* QLNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71192FD920C632A0001E5164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71192FE220C632A0001E5164 /* QLNetworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71192FD420C632A0001E5164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71192FB920C6329F001E5164 /* QLNetworkDemo */;
+			targetProxy = 71192FD320C632A0001E5164 /* PBXContainerItemProxy */;
+		};
+		71192FDF20C632A0001E5164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71192FB920C6329F001E5164 /* QLNetworkDemo */;
+			targetProxy = 71192FDE20C632A0001E5164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71192FC320C6329F001E5164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71192FC420C6329F001E5164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71192FC820C6329F001E5164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71192FC920C6329F001E5164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71192FE420C632A0001E5164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71192FE520C632A0001E5164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71192FE720C632A0001E5164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D53251B877F94810E79A90 /* Pods-QLNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NW5DC92K7;
+				INFOPLIST_FILE = QLNetworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.QLNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71192FE820C632A0001E5164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617E8DF3E4DF9E518833AE96 /* Pods-QLNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NW5DC92K7;
+				INFOPLIST_FILE = QLNetworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.QLNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71192FEA20C632A0001E5164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.QLNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLNetworkDemo.app/QLNetworkDemo";
+			};
+			name = Debug;
+		};
+		71192FEB20C632A0001E5164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.QLNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLNetworkDemo.app/QLNetworkDemo";
+			};
+			name = Release;
+		};
+		71192FED20C632A0001E5164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.QLNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLNetworkDemo;
+			};
+			name = Debug;
+		};
+		71192FEE20C632A0001E5164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ql.QLNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLNetworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71192FB520C6329F001E5164 /* Build configuration list for PBXProject "QLNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71192FE420C632A0001E5164 /* Debug */,
+				71192FE520C632A0001E5164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71192FE620C632A0001E5164 /* Build configuration list for PBXNativeTarget "QLNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71192FE720C632A0001E5164 /* Debug */,
+				71192FE820C632A0001E5164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71192FE920C632A0001E5164 /* Build configuration list for PBXNativeTarget "QLNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71192FEA20C632A0001E5164 /* Debug */,
+				71192FEB20C632A0001E5164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71192FEC20C632A0001E5164 /* Build configuration list for PBXNativeTarget "QLNetworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71192FED20C632A0001E5164 /* Debug */,
+				71192FEE20C632A0001E5164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71192FB220C6329F001E5164 /* Project object */;
+}
