@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QLNetwork"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "对ANNetworking 封装"
   s.description  = <<-DESC
 	    对ANNetworking 进行封装以方便自己使用
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform	 = :ios
   s.platform 	 = :ios,"9.0"
   s.source       = { :git => "https://github.com/mark1225/QLNetwork.git", :tag => "#{s.version}" }
-  s.source_files  = "QLNetwork/*.{h,m}"
+  s.source_files  = "QLNetworkDemo/QLNetworkDemo/QLNetwork/*.{h,m}"
 
   s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'YYCache', '~> 1.0.4'
