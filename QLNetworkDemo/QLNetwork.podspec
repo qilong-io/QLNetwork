@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QLNetwork"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "对ANNetworking 封装"
   s.description  = <<-DESC
 	    对ANNetworking 进行封装以方便自己使用

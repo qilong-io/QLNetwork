@@ -315,3 +315,31 @@ QLNetSingLetonM(QLAction)
 
 @end
 
+@implementation QLRequestFileConfig
+
+
+
++ (instancetype)fileConfigWithfileData:(NSData *)fileData name:(NSString *)name fileName:(NSString *)fileName mimeType:(NSString *)mimeType{
+    return [[self alloc] initWithfileData:fileData name:name fileName:fileName mimeType:mimeType];
+}
+
+
+- (instancetype)initWithfileData:(NSData *)fileData name:(NSString *)name fileName:(NSString *)fileName mimeType:(NSString *)mimeType{
+    if (self = [super init]) {
+        self.fileData = fileData;
+        self.name = name;
+        self.fileName = fileName;
+        self.mimeType = mimeType;
+    }
+    return self;
+}
+
+- (instancetype)init{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+
+@end
+
