@@ -84,7 +84,6 @@ QLNetSingLetonH(QLAction)
 @property (nonatomic, copy) NSString *mimeType;
 
 
-
 + (instancetype)fileConfigWithfileData:(NSData *)fileData name:(NSString *)name fileName:(NSString *)fileName mimeType:(NSString *)mimeType;
 
 
