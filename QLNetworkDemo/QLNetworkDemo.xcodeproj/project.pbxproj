@@ -18,6 +18,7 @@
 		71192FF520C63624001E5164 /* QLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FF420C63624001E5164 /* QLAction.m */; };
 		71192FF820C638B6001E5164 /* QLNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FF720C638B6001E5164 /* QLNetworkCache.m */; };
 		71192FFB20C639E8001E5164 /* NSObject+QLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 71192FFA20C639E8001E5164 /* NSObject+QLRequest.m */; };
+		7139BD43246A68A1008EC336 /* QLNetwork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7139BD42246A68A1008EC336 /* QLNetwork.podspec */; };
 		E992A724F52DBDDBD8AF2D04 /* libPods-QLNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ED570F49180DB7268F9808 /* libPods-QLNetworkDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		71192FF720C638B6001E5164 /* QLNetworkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLNetworkCache.m; sourceTree = "<group>"; };
 		71192FF920C639E8001E5164 /* NSObject+QLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+QLRequest.h"; sourceTree = "<group>"; };
 		71192FFA20C639E8001E5164 /* NSObject+QLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QLRequest.m"; sourceTree = "<group>"; };
+		7139BD42246A68A1008EC336 /* QLNetwork.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = QLNetwork.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		71192FBC20C6329F001E5164 /* QLNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7139BD42246A68A1008EC336 /* QLNetwork.podspec */,
 				71192FEF20C633AE001E5164 /* QLNetwork */,
 				71192FBD20C6329F001E5164 /* AppDelegate.h */,
 				71192FBE20C6329F001E5164 /* AppDelegate.m */,
@@ -293,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7139BD43246A68A1008EC336 /* QLNetwork.podspec in Resources */,
 				71192FCA20C6329F001E5164 /* LaunchScreen.storyboard in Resources */,
 				71192FC720C6329F001E5164 /* Assets.xcassets in Resources */,
 				71192FC520C6329F001E5164 /* Main.storyboard in Resources */,
