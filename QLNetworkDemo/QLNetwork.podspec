@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/qilong-io/QLNetwork.git", :tag => "#{s.version}" }
   s.source_files  = "QLNetworkDemo/QLNetworkDemo/QLNetwork/*.{h,m}"
 
-  s.dependency 'AFNetworking', '~> 3.2.1',:subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
+  s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'YYCache', '~> 1.0.4'
   s.requires_arc = true
 end
