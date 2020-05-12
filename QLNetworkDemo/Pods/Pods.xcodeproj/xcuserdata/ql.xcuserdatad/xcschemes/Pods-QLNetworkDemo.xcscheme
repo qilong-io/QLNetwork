@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12A304548537B7BCCF829BD3E8936463"
+               BlueprintIdentifier = "EFC5F8FD16D706AD09A3E8C31E1F79CB"
+               BuildableName = "libPods-QLNetworkDemo.a"
                BlueprintName = "Pods-QLNetworkDemo"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-QLNetworkDemo.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

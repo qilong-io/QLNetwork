@@ -7,7 +7,8 @@
 //
 
 #import "QLAction.h"
-#import <AFNetworking/AFNetworking.h>
+//#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
 #import "NSObject+QLRequest.h"
 #import "QLNetworkCache.h"
 #import "QLNetworkCache.h"
